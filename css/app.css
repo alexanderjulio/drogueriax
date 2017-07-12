@@ -10,6 +10,60 @@ a:hover {
   color: #fff;
 }
 
+.section h1 {
+    background: #7BC74D;
+    color: white;
+    padding: 15px;
+}
+
+.form-control:focus {
+  border-color: #388E3C;
+}
+
+.btn.btn-platzi {
+  background-color: #388E3C;
+  color: white;
+}
+
+.btn.btn-platzi:hover {
+  background-color: #8ab542;
+}
+
+.pagination-container {
+  margin-bottom: 0 !important;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #388E3C;
+  border-color: #388E3C;
+}
+
+.page-link, .page-link:focus, .page-link:hover {
+  color: #8ab542;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  border: 5px solid green;
+}
+
+.container2 {
+  text-align: center;
+  padding: 5px;
+  color: #3E3E3E;
+}
+
+.info-container1 {
+  color: white;
+  padding: 1em 0;
+}
+/*
+.center p {
+  color: #3E3E3E;
+  text-align: center;
+  margin-top: -20px;
+}*/
+
 #image {
   width: 70px;
   height: 100px;
@@ -55,19 +109,6 @@ a:hover {
 #menu-container .nav-container .nav {
   display: inline-block;
   margin-bottom: -6px;
-}
-
-.form-control:focus {
-  border-color: #388E3C;
-}
-
-.btn.btn-platzi {
-  background-color: #388E3C;
-  color: white;
-}
-
-.btn.btn-platzi:hover {
-  background-color: #8ab542;
 }
 
 #search-bar {
@@ -168,19 +209,6 @@ a:hover {
   }
 }
 
-.pagination-container {
-  margin-bottom: 0 !important;
-}
-
-.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
-  background-color: #388E3C;
-  border-color: #388E3C;
-}
-
-.page-link, .page-link:focus, .page-link:hover {
-  color: #8ab542;
-}
-
 #section .float-right {
   @include float-right;
 }
@@ -194,6 +222,7 @@ a:hover {
   width: 70%;
   height: 300px;
   margin-left: 100px;
+  margin-bottom: 20px;
 }
 
 #section1 .his  {
@@ -202,34 +231,24 @@ a:hover {
   margin-left: 400px;
 }
 
-.rounded-circle {
-  border-radius: 50%;
-  border: 5px solid green;
-}
-
 #section h1 {
   background: #7BC74D;
   color: white;
   padding: 15px;
 }
 
-#section p {
-  color: green;
-  text-align: center;
+#section {
+  color: #3E3E3E;
+  text-align: justify;
   margin-top: -20px;
 }
 
 #section .imasuc {
-  width: 400px;
+  width: 300px;
   height: 300px;
-  margin: 85px;
+  margin: 10px;
 }
 
 #section iframe {
   padding-top: 30px;
-}
-
-.info-container1 {
-  color: white;
-  padding: 1em 0;
 }
