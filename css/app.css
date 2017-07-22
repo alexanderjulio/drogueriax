@@ -44,7 +44,6 @@ a:hover {
 
 .rounded-circle {
   border-radius: 50%;
-  border: 5px solid green;
 }
 
 .container2 {
@@ -100,6 +99,8 @@ a:hover {
 #info-container {
   background-color: #388E3C;
   color: white;
+  padding-bottom: 30px;
+
 }
 
 #menu-container {
@@ -127,8 +128,17 @@ a:hover {
 
 #productsCarousel img {
   margin: 0 auto;
-  height: 450px;
-  width: 50%;
+  height: 300px;
+  width: 40%;
+}
+
+#imgsection {
+  height: 200px;
+  width: 100%;
+}
+
+.carousel {
+  height: 300px;
 }
 
 #footer-container {
